@@ -1,0 +1,144 @@
+
+:root {
+    --cor-forte: #222130;
+    --cor-media: #474360;
+    --cor-leve: #514a6c;
+    --cor-default: #fffefe;
+}
+
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+.all {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: var(--cor-media);
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: var(--cor-forte);
+    margin: 0;
+    color: var(--cor-default);
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.navList{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navListItem {
+    display: inline;
+    margin: 100px;
+}
+
+.navListLink {
+    color: var(--cor-default);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.main {
+    padding: 20px;
+    text-align: center;
+    margin: 30;
+}
+
+.section {
+    background-color: var(--cor-default);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.colaborador {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+
+.topic {
+    display: flex;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.subtopic {
+    display: flex;
+    font-weight: bold;
+    font-size: large;
+}
+
+.text {
+    display: flex;
+    text-align: justify;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.listSubtopic {
+    margin: 0px 10px 10px 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;    
+}
+
+.listSubtopicItem {
+    padding: 10px;
+    text-align: justify;    
+}
+
+.divNotas {
+    background-color: var(--cor-media);
+    width: 100%;
+    color: var(--cor-default);
+    display: flex;
+    flex-direction: column;
+}
+
+.notas {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.citacao {
+    font-style: italic;
+    font-weight: 500;
+}
+
+.figura {
+    display: flex;
+    margin: 30px;
+}
+
+img {
+    width: 100%;
+}
+
+.footer {
+    background-color: var(--cor-forte);
+    color: var(--cor-default);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
