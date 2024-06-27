@@ -21,6 +21,10 @@
     background-color: var(--cor-media);
     margin: 0;
     padding: 0;
+    max-width: 1920;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .header {
@@ -49,10 +53,40 @@
     font-size: 18px;
 }
 
+.aside {
+    background-color: var(--cor-media);
+    padding: 10px;
+    font-size: 12px;
+    box-sizing: border-box;
+    left: 0;
+    position: fixed;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.asideList {
+    list-style-type: none;
+    padding: 0;
+}
+.asideListItem {
+    margin-bottom: 10px;
+}
+.asideListLink {
+    text-decoration: none;
+    color: var(--cor-default);
+    display: block;
+    padding: 5px 10px;
+}
+.asideListLink:hover {
+    background-color: var(--cor-forte);
+    color: var(--cor-default);
+}
+
 .main {
     padding: 20px;
     text-align: center;
-    margin: 30;
+    margin-left: 50px; /* Ajuste para dar espaço suficiente para o aside */
+    box-sizing: border-box; /* Incluir padding e borda na largura total */
 }
 
 .section {
@@ -61,7 +95,7 @@
     margin-bottom: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
